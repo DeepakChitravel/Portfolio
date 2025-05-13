@@ -1,0 +1,178 @@
+ body {
+      scroll-behavior: smooth;
+    }
+    .navbar {
+      background-color: #343a40;
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+    }
+    .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+    .hero {
+      background: #007bff;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .project-card:hover {
+      transform: scale(1.03);
+      transition: 0.3s;
+    }
+    footer {
+      background: #343a40;
+      color: white;
+      padding: 20px 0;
+    }
+
+  .carousel-inner img {
+    height: 400px;         
+    object-fit: cover;     
+  }
+  .carousel-caption {
+  background: rgba(0, 0, 0, 0.5); 
+  padding: 10px;
+  border-radius: 5px;
+}
+.carousel-item img {
+    margin: 0 auto;
+    display: block;
+    max-height: 400px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 16px;
+    border-radius: 8px;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .carousel-caption h5 {
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-item img {
+      height: 250px;
+    }
+    .carousel-caption {
+      top: 10px;
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+
+  /* Initially hide the carousel control arrows */
+#carouselProject1 .carousel-control-prev,
+#carouselProject1 .carousel-control-next {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show arrows when hovering over the carousel */
+#carouselProject1:hover .carousel-control-prev,
+#carouselProject1:hover .carousel-control-next {
+  opacity: 1;
+}
+
+.hero {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Stylish gradient */
+    min-height: 70vh;
+    color: white;
+    padding: 100px 0;
+  }
+
+  .hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .hero p {
+    font-size: 1.3rem;
+  }
+
+  .btn-outline-light {
+    border-radius: 30px;
+    padding: 10px 30px;
+    transition: 0.3s;
+  }
+
+  .btn-outline-light:hover {
+    background-color: white;
+    color: #2c5364;
+    transform: scale(1.05);
+  }
+
+  .contact-section {
+    background: #f8f9fa;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #203a43;
+  }
+
+  .form-label {
+    font-weight: 500;
+    color: #333;
+  }
+
+  .form-control {
+    border-radius: 10px;
+  }
+
+  .btn-primary {
+    background-color: #2c5364;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+  }
+
+  .btn-primary:hover {
+    background-color: #203a43;
+    transform: scale(1.03);
+  }
+
+  .card {
+    background-color: #ffffff;
+  }
+    .about-section {
+    background-color: #f8f9fa;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #203a43;
+  }
+
+  .card {
+    background-color: #fff;
+    font-size: 1.05rem;
+  }
+
+  .typewriter-box {
+    font-family: monospace;
+    font-size: 1.2rem;
+    background: #e9f7fe;
+    padding: 10px 15px;
+    border-left: 4px solid #2c5364;
+    border-radius: 6px;
+    min-height: 40px;
+  }
+
+  .typewriter-text strong {
+    color: #2c5364;
+  }
