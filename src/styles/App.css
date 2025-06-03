@@ -1,0 +1,13 @@
+  .nav-item-custom {
+  color: #ccc !important;
+  transition: color 0.3s ease;
+}
+
+.nav-item-custom:hover {
+  color: #fff !important;
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
