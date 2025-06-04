@@ -17,7 +17,7 @@ const education = [
   {
     title: 'Master Degree (M.C.A.)',
     duration: '2023 - 2025',
-    description: 'Master of Computer Applications at A.V.V.M. Sri Pushpam College.',
+    description: 'Master of Computer Applications at A.V.V.M. Sri Pushpam College,affiliated to Bharathidasan University.',
   },
 ];
 
