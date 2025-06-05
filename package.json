@@ -9,15 +9,13 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
-<<<<<<< HEAD
-    "lucide-react": "^0.513.0",
-=======
     "framer-motion": "^12.16.0",
->>>>>>> 2376f70 (changes made in diff files)
-    "react": "^19.1.0",
+    "lucide-react": "^0.513.0",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.10.10",
-    "react-dom": "^19.1.0",
+    "react-dom": "^18.3.1",
     "react-scripts": "^5.0.1",
+    "uncontrollable": "^8.0.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
