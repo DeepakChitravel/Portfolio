@@ -2,16 +2,17 @@ import React, { useState } from "react";
 import { Container, Row, Col, Modal, Tooltip, OverlayTrigger } from "react-bootstrap";
 
 const certificates = [
-  { name: "HP Life - AI for Beginners", url: "/HPLife.png" },
-  { name: "Citi - Software Development", url: "/citi.png" },
-  { name: "AWS - Solution Architect", url: "/AWS.png" },
-  { name: "Responsive Web Design", url: "/freecodecamp.png" },
-  { name: "Hawett Packard Enterprise", url: "/hawett.png" },
-  { name: "Microsoft - Generative AI", url: "/Microsoft.png" },
-  { name: "Postman for Beginner", url: "/Postman.png" },
-  { name: "Twilio", url: "/twilio.png" },
-  { name: "MongoDB", url: "/Mongodb.png"}
+  { name: "HP Life - AI for Beginners", url: process.env.PUBLIC_URL + "/HPLife.png" },
+  { name: "Citi - Software Development", url: process.env.PUBLIC_URL + "/citi.png" },
+  { name: "AWS - Solution Architect", url: process.env.PUBLIC_URL + "/AWS.png" },
+  { name: "Responsive Web Design", url: process.env.PUBLIC_URL + "/freecodecamp.png" },
+  { name: "Hawett Packard Enterprise", url: process.env.PUBLIC_URL + "/hawett.png" },
+  { name: "Microsoft - Generative AI", url: process.env.PUBLIC_URL + "/Microsoft.png" },
+  { name: "Postman for Beginner", url: process.env.PUBLIC_URL + "/Postman.png" },
+  { name: "Twilio", url: process.env.PUBLIC_URL + "/twilio.png" },
+  { name: "MongoDB", url: process.env.PUBLIC_URL + "/Mongodb.png" }
 ];
+
 
 const Certificates = () => {
   const [show, setShow] = useState(false);
