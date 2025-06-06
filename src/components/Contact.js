@@ -65,12 +65,9 @@ const ContactPage = () => {
           {/* Social Icons */}
           <div className="text-center mt-4">
             <h5>Or connect with me:</h5>
-            <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank" rel="noopener noreferrer" className="mx-3" style={{ fontSize: '1.8rem', color: '#0077b5' }} title="LinkedIn"><FaLinkedin /></a>
-            <a href="mailto:your-email@gmail.com" className="mx-3" style={{ fontSize: '1.8rem', color: '#db4437' }} title="Gmail"><FaGoogle /></a>
-            <a href="https://github.com/your-github-id" target="_blank" rel="noopener noreferrer" className="mx-3" style={{ fontSize: '1.8rem', color: '#333' }} title="GitHub"><FaGithub /></a>
-            <a href="https://instagram.com/your-instagram-id" target="_blank" rel="noopener noreferrer" className="mx-3" style={{ fontSize: '1.8rem', color: '#e1306c' }} title="Instagram"><FaInstagram /></a>
-            <a href="https://www.naukri.com/mnjuser/profile?id=your-naukri-id" target="_blank" rel="noopener noreferrer" className="mx-3" style={{ fontSize: '1.8rem', color: '#18a1b7' }} title="Naukri"><FaBriefcase /></a>
-            <a href="https://my.indeed.com/p/your-indeed-id" target="_blank" rel="noopener noreferrer" className="mx-3" style={{ fontSize: '1.8rem', color: '#2557a7' }} title="Indeed"><FaGlobe /></a>
+            <a href="https://www.linkedin.com/in/Deepak-Chitravel" target="_blank" rel="noopener noreferrer" className="mx-3" style={{ fontSize: '1.8rem', color: '#0077b5' }} title="LinkedIn"><FaLinkedin /></a>
+            <a href="https://github.com/DeepakChitravel/" target="_blank" rel="noopener noreferrer" className="mx-3" style={{ fontSize: '1.8rem', color: '#333' }} title="GitHub"><FaGithub /></a>
+            
           </div>
         </Col>
       </Row>
