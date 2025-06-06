@@ -36,9 +36,7 @@ const Hero = () => {
                 border: '6px solid #0d6efd',
               }}
             >
-              <Img
-                src="/Deepak_photo.jpeg"
-                alt="Deepak"
+             <Image src={process.env.PUBLIC_URL + '/Deepak_photo.jpeg'} alt="Deepak"
                 fluid
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
