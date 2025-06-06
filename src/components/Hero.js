@@ -36,7 +36,7 @@ const Hero = () => {
                 border: '6px solid #0d6efd',
               }}
             >
-              <Image
+              <Img
                 src="/Deepak_photo.jpeg"
                 alt="Deepak"
                 fluid
