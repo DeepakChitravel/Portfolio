@@ -23,7 +23,7 @@ const education = [
 
 const EducationExperience = () => {
   return (
-    <div className="timeline-section py-5">
+    <div id="education" className="timeline-section py-5">
       <Container>
         <Row className="justify-content-center">
           <Col md={10} lg={8}>

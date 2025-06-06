@@ -10,6 +10,7 @@ const certificates = [
   { name: "Microsoft - Generative AI", url: "/Microsoft.png" },
   { name: "Postman for Beginner", url: "/Postman.png" },
   { name: "Twilio", url: "/twilio.png" },
+  { name: "MongoDB", url: "/Mongodb.png"}
 ];
 
 const Certificates = () => {
