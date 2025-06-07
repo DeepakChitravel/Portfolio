@@ -10,16 +10,17 @@ const Resume = () => {
         <p className="mb-4">Click the button below to download my latest resume in PDF format.</p>
 
         <Button
-          variant="primary"
-          href="/Deepak_Resume.pdf"
-          download
-          size="lg"
-          className="d-flex align-items-center gap-2 justify-content-center mx-auto"
-          style={{ maxWidth: '250px' }}
-        >
-          <FaDownload />
-          Download Resume
-        </Button>
+  variant="primary"
+  href={`${process.env.PUBLIC_URL}/Deepak_Resume.pdf`}
+  download
+  size="lg"
+  className="d-flex align-items-center gap-2 justify-content-center mx-auto"
+  style={{ maxWidth: '250px' }}
+>
+  <FaDownload />
+  Download Resume
+</Button>
+
       </Container>
     </div>
   );
