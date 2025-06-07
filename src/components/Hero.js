@@ -83,11 +83,11 @@ const Hero = () => {
                 </Button>
               </motion.a>
               <motion.a
-                href="/Deepak_Resume.pdf"
-                download
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.2 }}
-              >
+  href={`${process.env.PUBLIC_URL}/Deepak_Resume.pdf`}
+  download
+  whileHover={{ scale: 1.05 }}
+  transition={{ duration: 0.2 }}
+>
                 <Button variant="outline-dark" size="lg">
                   Download Resume
                 </Button>
