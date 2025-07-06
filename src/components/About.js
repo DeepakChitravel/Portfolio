@@ -1,71 +1,72 @@
 import React from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import { Quote } from 'lucide-react'; // Optional icon (needs lucide-react installed)
+import { UserRound, ArrowDown } from 'lucide-react';
 
 const About = () => {
   return (
     <div
       id="about"
-      className="py-5"
+      className="d-flex align-items-center justify-content-center"
       style={{
-        background: 'linear-gradient(135deg, #f8f9fa, #e0e0e0)',
+        minHeight: '100vh',
+        background: 'linear-gradient(135deg, #0f2027, #203a43, #2c5364)',
+        color: '#fff',
         fontFamily: "'Poppins', sans-serif",
+        textAlign: 'center',
+        position: 'relative',
       }}
     >
       <Container>
+        <h2
+          style={{
+            fontSize: '2.8rem',
+            fontWeight: '700',
+            marginBottom: '2rem',
+            letterSpacing: '1px',
+          }}
+        >
+          ABOUT ME
+        </h2>
         <Row className="justify-content-center">
-          <Col md={10} lg={8}>
+          <Col md={8}>
             <Card
-              className="border-0 shadow rounded-4 p-4"
+              className="p-4 border-0 shadow-lg"
               style={{
-                backgroundColor: '#ffffff',
-                boxShadow: '0 12px 30px rgba(0,0,0,0.1)',
-                borderRadius: '1.5rem',
+                background: 'rgba(255,255,255,0.05)',
+                backdropFilter: 'blur(10px)',
+                borderRadius: '1rem',
+                color: '#fff',
               }}
             >
+              <div className="text-center mb-3">
+                <UserRound size={48} color="#0d6efd" />
+              </div>
               <Card.Body>
-                <div className="text-center mb-4">
-                  <Quote size={40} color="#0d6efd" />
-                </div>
-                <Card.Title
-                  className="mb-4 text-center"
-                  style={{
-                    fontSize: '2.8rem',
-                    fontWeight: '600',
-                    color: '#0d6efd',
-                    letterSpacing: '0.5px',
-                    fontFamily: "'Poppins', sans-serif",
-                  }}
-                >
-                  About Me
-                </Card.Title>
                 <Card.Text
                   style={{
-                    fontSize: '1.15rem',
-                    lineHeight: '1.9',
-                    color: '#343a40',
-                    fontWeight: '400',
-                    textAlign: 'justify',
+                    fontSize: '1.1rem',
+                    lineHeight: '1.8',
                   }}
                 >
-                  I’m a <strong>tech enthusiast</strong> with a deep passion for learning and exploring modern
-                  technologies. I’ve completed certifications from <strong>Citi</strong> and{' '}
-                  <strong>Hewlett Packard Enterprise</strong>, which helped me develop a strong foundation in
-                  problem-solving and industry workflows.
-                  <br />
-                  <br />
-                  I actively seek opportunities to grow in <strong>software development, IT systems</strong>, and
-                  <strong> emerging tech trends</strong>. I believe in continuous learning and love building real-world
-                  solutions through hands-on projects.
-                  <br />
-                  <br />
-                  My focus is on creating impactful work and connecting with like-minded professionals who are
-                  passionate about <strong>innovation and technology</strong>.
+                  I'm a passionate tech enthusiast focused on building responsive web applications,
+                  developing APIs, and exploring emerging technologies. My skills include <strong>React.js, Node.js, PHP, MongoDB, MySQL</strong> and more.
+                  <br /><br />
+                  I've completed certifications from industry leaders like <strong>Citi</strong>, <strong>Hewlett Packard Enterprise</strong>,
+                  <strong> Microsoft</strong>, and <strong>AWS</strong>. I enjoy turning ideas into real-world solutions and continuously improving through learning.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
         </Row>
+
+        {/* Scroll Indicator */}
+        <div
+          className="d-flex flex-column align-items-center mt-5"
+          style={{ position: 'absolute', bottom: '20px', left: '50%', transform: 'translateX(-50%)' }}
+        >
+          <ArrowDown color="#fff" />
+          <span style={{ fontSize: '0.9rem', color: '#ccc' }}>Scroll Down</span>
+        </div>
       </Container>
     </div>
   );
